@@ -1,0 +1,94 @@
+﻿<!DOCTYPE html>
+
+<html lang="pt-br">
+
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="css/style.css" type="text/css">
+		<title> Formulário - Locadora Muito Legal</title>
+	</head>
+
+	<body>
+		<div id="container">
+			<div id="conteudo">
+				<!--<header>
+					<figure>
+						<img src="img/locadora.jpg" alt="logotipo locadora muito legal" />
+					</figure>
+				</header>-->
+				<h1>Locadora Muito Legal</h1>
+
+				<h2><img src="img/titulo_formulario.jpg" alt="formulário de interesse" /></h2>
+
+				<form action="obrigado.html" method="post" name="interesse" id="interesse">
+
+					<fieldset>
+
+						<legend>Dados Pessoais</legend>
+						<p>
+						<label for="nome">Nome: </label>
+						<input type="text" name="nome" id="nome" />
+						</p>
+
+						<p>
+						<label for="email">E.mail: </label>
+						<input type="email" name="email" id="email" />
+						</p>
+
+					</fieldset>
+
+
+					<fieldset>
+
+						<legend>Informações</legend>
+						<p>
+						<label for="depto">Enviar para departamento: </label>
+						<select name="depto" id="depto">
+						<option>escolha sua opção</option>
+						<option value="fin">financeito</option>
+						<option value="tec">técnico</option>
+						<option value="adm">administrativo</option>
+						<option value="att">atendimento</option>
+						</select>
+						</p>
+
+						<p>
+						Tipo: <br />
+						<input type="radio" name="tipo" value="pf" id="pf" /> 
+						<label for="pf">pessoa física</label>
+						<br />
+						<input type="radio" name="tipo" value="pj" id="pj" />
+						<label for="pj">pessoa jurídica</label>
+						</p>
+
+						<p>
+						Informativo: <br />
+						<input type="checkbox" name="info_mensal" id="info_mensal" value="sim" />
+						<label for="info_mensal">Quero receber o informativo mensal</label>
+						<br />
+						<input type="checkbox" name="info_patro" id="info_patro" value="sim" />
+						<label for="info_patro">Quero receber informações dos patrocinadores</label>
+						</p>
+
+						<p>
+						<label for="mensagem">Mensagem: </label>
+						<br /> 
+						<textarea cols="50" rows="5" name="mensagem" id="mensagem" placeholder="Qualquer coisa"></textarea>
+						</p>
+
+					</fieldset>
+
+					<p>&nbsp;</p>
+
+					<p>
+					<input type="submit" name="Submit" value="Enviar formulário" />
+					<input type="reset" name="Submit2" value="Limpar dados" />
+					</p>
+
+					
+				</form>
+			</div>
+		</div>
+	</body>
+
+</html>

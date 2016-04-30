@@ -1,0 +1,41 @@
+*{
+		margin: 0; 
+		padding: 0
+}
+
+#tela{
+	position: relative;
+	width: 800px;
+	height: 500px;
+	margin: 10px auto;
+	background: url(../imagens/fundo.jpg);
+	background-size: cover;
+	cursor: none;
+}
+
+#cursor{
+		position: absolute;
+		width:50px;
+		display: none;
+		z-index: 1000;
+}
+
+#tela:hover #cursor{
+		display: block;
+}
+
+#start{
+		position: relative;
+		width: 200px;
+		margin-left: 300px;
+		margin-top: 150px;
+		/*top:50%;
+		left:50%;
+		margin: -100px 0 0 -100px;*/
+
+}
+
+.bolha {
+		position: absolute;
+		width: 50px;
+}

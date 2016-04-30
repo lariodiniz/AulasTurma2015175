@@ -1,0 +1,2 @@
+Leia -> ler informação digitada pelo usuario
+escreva -> inprime uma informação na tela

@@ -1,0 +1,24 @@
+body {
+	font-family: verdana, Arial, sans-serif;
+	line-height: 1.5;
+	background-image: url(../img/back_geral.gif);
+	background-color: #ffc936;
+}
+
+/*   <--|-->   */
+
+ul{
+	background-image: url(../img/back_lista.gif);
+	background-repeat: no-repeat;
+	background-position: right top;
+	background-color: #ffc936;
+
+}
+
+/*   <--|-->   */
+
+ul li {
+	/* list-style-type: none; --> tira o bolet da lista. */
+	list-style-image: url(../img/item_lista.gif);
+	list-style-position: inside;
+}

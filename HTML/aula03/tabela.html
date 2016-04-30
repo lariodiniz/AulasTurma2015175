@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Desenvolvedor WEB - Aula 03: Tabela</title>
+		<style>
+			table, td, th{
+				border:1px solid #000;
+			}
+		</style>
+	
+	</head>
+	
+	<body>
+	
+		<h3>Locadora Heavy Metal</h3>
+		
+		<table>
+			<caption>
+				<strong>Devolução de Filmes</strong>
+			</caption>
+			<thead>
+				<tr>
+					<th>Titulo</th>
+					<th>Lançamento</th>
+					<th>Devolução (data)</th>
+					<th>Devolução (dia)</th>
+					<th rowspan="2">Sei lá. Conteudo Qualquer</th>
+				</tr>
+			</thead>
+			<tbody>
+			
+				<tr>
+					<td >Avatar</td>
+					<td>Sim</td>
+					<td>17/out</td>
+					<td>Domingo</td>
+					<td rowspan="5">Conteudo</td>
+				</tr>
+				<tr>
+					<td>Batman - Cavaleiro das Trevas</td>
+					<td>Não</td>
+					<td>17/out</td>
+					<td>Domingo</td>
+					
+				</tr>
+				<tr>
+					<td>Perdido em Marte</td>
+					<td>Sim</td>
+					<td>17/out</td>
+					<td>Domingo</td>
+				</tr>
+				<tr>
+					<td>Up - Altas Aventuras</td>
+					<td>Não</td>
+					<td>17/mar</td>
+					<td>Domingo</td>
+				</tr>
+			</tbody>
+			<tfoot>
+				<tr>
+					<!-- Para mesclar colunas CONSPAN -->
+					<td colspan="5">É Importante Devolver em 3 Dias</td>
+					<td>
+				</tr>
+			</tfoot>			
+		</table>
+		
+	</body>
+</html>

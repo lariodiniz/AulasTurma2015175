@@ -1,0 +1,22 @@
+#site{
+	display:none;
+}
+#preloader{
+	position: absolute;
+	width: 64px;
+	height: 64px;
+	
+	top: 50%;
+	left:50%;
+	margin: -32px 0 0 -32px;
+	
+}
+
+label.error{
+		color: #ce4c3a;
+}
+
+input.error{
+		border: 1px solid #ce4c3a;
+		box-shadow: 0 0 2px #ce4c3a;
+}

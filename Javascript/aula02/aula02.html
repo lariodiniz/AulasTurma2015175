@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="pt-br">
+	<head>
+	<!-- Meta dados e título-->
+		<title>JavaScript - Aula 02</title>		
+		<meta name="description" content="Aula 02 de javascript do Curso de Programador Web - SEBAI">
+		<meta name="keywords" content="JAVASCRIPT, SENAI">
+		<meta name="author" content="Lário dos Santos Diniz">
+		
+	<!--  |---|  -->
+		
+	<!-- Favicon -->
+		<link rel="icon" href="#"><!-- Substitua o "#" pelo caminho do favcon, exemplo: "img/favicon.ico" -->
+	<!--  |---|  -->
+		
+	<!-- CSS -->
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	<!--  |---|  -->
+		
+	<!-- JavaScript -->
+		
+	<!--  |---|  -->
+		
+	</head>
+	<body>
+		<main>
+			
+			<form name="form" method="post" onsubmit="return valida()">
+				<input type="hidden" name="handle" />
+				<label for="nome">Nome</label>
+				<input id="nome" type="text" name="nome" class="entrada" />
+				
+				<label for="senha">Senha</label>
+				<input id="senha" type="password" name="senha" class="entrada" />
+				
+				<label for="conf_senha">Confirme Senha</label>
+				<input id="conf_senha" type="password" name="confSenha" class="entrada" />
+				
+				<button type="submit" class="btn">Enviar</button>
+			</form>	
+			<div id="popup">
+				<span class="close">&times;</span>
+			</div>
+			
+		</main>
+		<!--  O carregamento do javascript esta após o carregamento da pagina -->
+		<script src="js/script.js"></script>
+		
+	</body>
+</html>

@@ -1,0 +1,38 @@
+Dados Primitivos
+
+1-Dados numericos.
+2-Caracteres.
+3-Lógicos.
+
+Numeros Inteiros
+Serão referenciados no visualalg com o comando inteiro.
+
+
+Numeros reais:
+Serão referenciados no visualalg com o comando real.
+
+Caracteres:
+Serão referenciados no visualalg com o comando caracter
+
+Dados Lógicos:
+Serão referenciados no VisuAlg pelo coando logico
+
+Variavel 
+É um local que o processador vai alocar na memoria para guardar dados.
+
+- Nome de Uma variavel
+    1- O Nome de uma variavel pode utilizar um ou mais caracteres, exceto letras e ç.
+    2- O Primeiro caractere tem que ser uma letra.
+    3- Não pode existir espaço em branco no nome da variavel. Se for necessario, substitua o espaço por underline "_".
+    4- O nome de uma variável não pode ser o mesmo de um comando ou instrução  de linguagem de programação.
+    5- O nome de uma variavel não pode iniciar com numero.
+
+Constantes
+É uma grandeza Fixa.
+
+operadores lógicos
+
+não
+ou
+e
+xou

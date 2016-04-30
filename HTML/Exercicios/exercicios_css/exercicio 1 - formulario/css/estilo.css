@@ -1,0 +1,47 @@
+body {
+		font-family: verdana, sans-serif;
+		width:750px; 
+		margin: auto;
+
+}
+
+h1 {
+	text-align: right;
+	color: #909;
+	border-bottom: 1px solid #909;
+}
+
+form{
+	background: url("../img/form1_back.jpg") no-repeat left center;
+	padding-left:100px;
+}
+
+fieldset{
+		border: 3px solid #fcc;
+		padding: 10px;
+		margin-bottom: 15px;
+}
+legend{
+		font-size:19px;
+		font-weight:bold;
+		
+}
+
+label{
+	display:block; 
+	width:150px; 
+	float:left; 
+
+}
+
+input[type=text], input[type=email], input[type=password], textarea{
+		background:#fcc;
+		border: none;
+		width: 450px;
+		
+}
+
+input[type=text], input[type=email], input[type=password]{
+		//margin-left: 65px;
+		
+}

@@ -1,0 +1,28 @@
+body { 
+	font-family: verdana, arial, sans-serif;
+}
+
+/*   -|-   */
+
+p {
+	color: #0000ff;
+	text-align: justify;
+	text-indent: 2em;
+	line-height: 2.5em;
+}
+
+/*   -|-   */
+
+h1 {
+	font-size: 50px;
+	font-style: italic;
+	font-variant: small-caps;
+	font-weight: normal;	
+}
+
+/*   -|-   */
+
+h2, h3, h5 {
+	color: #f00;
+
+}

@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Desenvolvedor WEB - Aula 03: Formulario</title>
+	</head>
+	<body>
+		<h3>Formulario de Cadastro</h3>
+		<form action="obrigado.html" method="">
+			<label for="nome">Nome: </label>
+			<input type="text" name="nome" id="nome"><br>
+			<label for="telefone">Telefone: </label>
+			<input type="tel" name="telefone" id="telefone"><br>
+			<label for="email">Email: </label>
+			<input type="email" name="email" id="email"><br>
+			<label for="depto">Enviar para o Departamento: </label><br>
+			<!-- Droopbox para Formulario -->
+			<select size="4" name="depto" id="depto">
+				<option value="0">Escolha uma Opção</option>
+				<option value="1">Administrativo</option>
+				<option value="2">Financeiro</option>
+				<option value="3">Tecnico</option>
+				<option value="4" selected>Atendimento</option>
+			</select>
+			<!--           /---/              -->
+			<br><br>
+			<!-- RadioButon para Formulario -->
+			<p>Tipo: </p>
+			<input type="radio" name="tipo" id="pf" value="pf">
+			<label for="pf">Pessoa Física</label><br>
+			<input type="radio" name="tipo" id="pj" value="pj">
+			<label for="pj">Pessoa Juridica</label>
+			<!--           /---/              -->
+			<br><br>
+			<input type="Submit" name="enviar" id="enviar" value="Enviar Formulario"><br>						
+		</form>		
+	</body>
+</html>

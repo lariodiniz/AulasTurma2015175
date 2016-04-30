@@ -1,0 +1,128 @@
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+
+/* FONTE ESPECIFICA FONTE FACE*/
+
+/*
+ @font-face{
+		font-family: qualquernome
+		src: url(caminhodafonte)
+ }*/
+
+body {
+	background: url(../img/background.jpg) repeat-x #b1a38d;
+	font-family: Arial, Verdana, sans-serif;
+	font-size: 14px;
+	color: #463328;
+	margin: 0 auto;
+	width: 960px;	
+}
+
+header { 
+	height: 120px;
+	line-height: 120px;
+	padding-left: 20px;
+}
+
+main {	
+	background: #fefae8;
+	padding: 0 20px 20px 20px;
+	overflow: auto;
+	margin-top: 30px;
+	border:
+}
+
+
+nav {
+	height: 40px;	
+	margin-left: -20px;
+	margin-right: -20px;
+	
+}
+
+nav ul li ul li {
+		display: none;
+		
+}
+nav ul li a {
+		color: #fff;
+}
+nav ul li {
+	width: 192px;
+	height: 40px;
+	background: linear-gradient(to bottom, #7d9e34, #94bb40);
+	float: left;
+	text-align: center;
+	line-height: 40px;
+	border: 1px solid #bbdc75;
+	border-bottom: none;
+	
+	
+}
+#destaque .direita{
+		width:160px;
+		height:30px;
+		line-height:30px;
+		background: linear-gradient( #e19d32, #d18d21);
+		
+		border-radius: 10px;		
+		text-shadow: 1px 1px 2px #000;
+}
+.linkativo {
+		display:block;
+		background:#fefae8;
+		color:#000
+}
+
+h2{
+		font-family:Arial;
+		font-size:24px;
+		margin: 0 20px;
+}
+nav ul li:hover ul li{
+		display: block;
+		position:relative;
+}
+
+#slide {
+	margin-top: 20px;
+	width: 910px;
+	height: 240px;
+
+}
+
+#destaque {
+	height: 40px;
+
+	line-height: 40px;
+}
+
+#destaque .esquerda {
+	font-family: Times;
+	font-style: italic;
+}
+
+.coluna {
+	width: 440px;
+
+	background: white;
+}
+.esquerda {float: left;}
+.direita {float: right;}
+
+footer {
+	height: 60px;
+	line-height: 60px;
+}
+
+footer ul li {
+	float: left;
+	padding-right: 5px;
+}
+
+
+

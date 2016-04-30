@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="pt-br">
+	<head>
+	<!-- Meta dados e título-->
+		<title>JavaScript - Aula 01</title>		
+		<meta name="description" content="Aula 01 de javascript do Curso de Programador Web - SEBAI">
+		<meta name="keywords" content="JAVASCRIPT, SENAI">
+		<meta name="author" content="Lário dos Santos Diniz">
+		
+	<!--  |---|  -->
+		
+	<!-- Favicon -->
+		<link rel="icon" href="#"><!-- Substitua o "#" pelo caminho do favcon, exemplo: "img/favicon.ico" -->
+	<!--  |---|  -->
+		
+	<!-- CSS -->
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	<!--  |---|  -->
+		
+	<!-- JavaScript -->
+	
+	<!--  |---|  -->
+		
+	</head>
+	<body>
+		<main>
+			<h1>Hello Word!</h1>
+			<h2>1 - Variáveis e constantes</h2>
+			<p>Olho o arquivo script.js!!!</p>
+			<hr>
+			<h2>2 - Operadores</h2>
+			<p>|-=-=-=-=-=| Aritméticos |=-=-=-=-=-|<br>
+				x = 10 |=-=-=-=-=| y = 2
+			</p>
+			<p>
+				<span id="opArit1"></span><br>
+				<span id="opArit2"></span><br>
+				<span id="opArit3"></span><br>
+				<span id="opArit4"></span><br>
+				<span id="opArit5"></span><br>
+			</p>
+			<hr>
+			<h2>Eventos</h2>
+			<button type="button" onclick="alert('OLA')">onclick</button>
+			<button type="button" onclick="eventoClique()">onclick | Função</button>
+			<br>
+			<br>
+			<button type="button" onmouseover="eventoOnMouseOver()">OnMouseOver</button>
+			<button type="button" onmouseout="eventoOnMouseOut()">OnMouseOut</button>
+			<br>
+			<br>
+			<select id="frutas" onchange="eventoChange()">
+				<option value="maçã">Maça</option>
+				<option value="Manga">Manga</option>
+				<option value="Morango">Morango</option>
+				<<option value="Laranja">Laranja</option>
+			</select>
+			<br>
+			<br>
+			<div class="caixa">
+				<h3>Evento onKeyDown</h3>
+				<label for="nome">Digite seu nome</label>
+				<input type="text" id="nome" onkeydown="eventoOnKeyDown()" />
+				<p><b> Seu nome é:</b> <span id="respKeyDown"></span></p>
+				<h3>Evento onKeyup</h3>
+				<label for="time">Digite seu time</label>
+				<input type="text" id="time" onkeyup="eventoOnKeyUp()" />
+				<p><b> Seu time é:</b> <span id="respKeyup"></span></p>
+				
+			</div>
+			<h3>SetInterval()</h3>
+			<p>A Hora é: <span class="caixa" id="tempo"></span></p>
+			<br>
+			<br>
+			<h3>setTimeout()</h3>
+			<p> A data é: <span class="caixa" id="timeout"></span></p>
+		</main>
+		<!--  O carregamento do javascript esta após o carregamento da pagina -->
+		<script src="js/script.js"></script>
+	</body>
+</html>

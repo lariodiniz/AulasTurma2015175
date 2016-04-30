@@ -1,0 +1,6 @@
+Criar DB: CREATE DATABASE [nome do banco de dados];
+Apagar DB: DROP DATABASE [nome do banco de dados];
+Selecionar DB: USE [nome do banco de dados];
+Criar tabela: CREATE TABLE [nome da tabela](cARACTERISTICAS DAS COLUNAS);
+Verificar Tabela: DESCRIBE [nome da tabela]
+Alterar a estrutura da Tabela: ALTER TABLE [nome da tabela]
